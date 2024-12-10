@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+    Date: 12/9/2024
     <div className="h-10 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
     
       <h1 className="m-4 text-xl font-mono text-red-500 font-bold">Welcome to Deep Space Astrononmy: Your Gateway to the Cosmos</h1>
