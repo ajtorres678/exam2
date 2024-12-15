@@ -28,9 +28,9 @@ NOTE: This form must be submitted no later than 10 days prior to the weekend you
 
 
     <label htmlFor="firstname" className="ml-5">First Name:</label>
-    <input type="text" name="firstname" id="product" className="m-2 text-black bg-blue-400" />
+    <input type="text" name="firstname" id="firstname" className="m-2 text-black bg-blue-400" />
     <label htmlFor="lastname" className="ml-5">Last Name:</label>
-    <input type="text" name="product" id="product" className="m-2 text-black bg-blue-400" />
+    <input type="text" name="lastname" id="lastname" className="m-2 text-black bg-blue-400" />
     <br />
 
 <div className="ml-5 mt-5">Your pronouns<br />
@@ -42,16 +42,16 @@ NOTE: This form must be submitted no later than 10 days prior to the weekend you
     <label htmlFor="they/them/theirs">they/them/theirs</label><br />
     <input type="radio" id="other" name="pronouns" value="other" />
     <label htmlFor="other">Other</label>
-    <input type="text" name="other" id="other" placeholder="specify" className="m-3 text-black bg-blue-400" />
+    <input type="text" name="other_pronouns" id="other_pronouns" placeholder="specify" className="m-3 text-black bg-blue-400" />
 </div>
 
 <br />
 
 <label htmlFor="email" className="ml-5">Personal Email:</label>
-    <input type="text" name="email" id="email" className="m-2 text-black bg-blue-400" />
+    <input type="email" name="email" id="email" className="m-2 text-black bg-blue-400" />
     <br />
     <label htmlFor="phonenumber" className="ml-5">Personal Phone Number:</label>
-    <input type="text" name="phonenumber" id="phonenumber" className="m-2 text-black bg-blue-400" />
+    <input type="tel" name="phonenumber" id="phonenumber" className="m-2 text-black bg-blue-400" />
     <br />
 
 <div className="ml-5 mt-5">Best means to reach you 
@@ -64,7 +64,7 @@ NOTE: This form must be submitted no later than 10 days prior to the weekend you
 </div>
 <br />
 
-    <button type="button" className="ml-10 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
+    <button type="submit" className="ml-10 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
 </form><br />
 
 <center>
