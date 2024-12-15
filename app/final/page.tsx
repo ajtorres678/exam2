@@ -65,7 +65,17 @@ NOTE: This form must be submitted no later than 10 days prior to the weekend you
 <br />
 
     <button type="button" className="ml-10 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
-</form>
+</form><br />
+
+<center>
+<div className="avatar">
+  <div className="w-54 rounded">
+    <img src="https://static.mstdn.science/media_attachments/files/109/461/633/219/751/575/original/4e653e075c424173.jpeg" style={{ maxWidth: "30%", height: "auto" }} />
+  </div>
+</div>
+</center>
+
+
 </>
     );
 }

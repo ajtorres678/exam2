@@ -15,7 +15,7 @@ At Deep Space Astronomy, we are dedicated to unraveling the secrets of deep spac
 <center>
       <div className="avatar">
   <div className="w-54 rounded">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPl4VOPMq9x88xhChy0svvijgLot4B0DnLhg&s" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPl4VOPMq9x88xhChy0svvijgLot4B0DnLhg&s"/>
   </div>
 </div>
 </center>
