@@ -1,39 +1,70 @@
 export default function Page() {
     return(
 <>
-<h1 className="text-3xl ml-5">Final Exam</h1>
+<center>
+<h1 className="text-4xl ml-5 text-blue-400 font-mono">Deep Space Weekend Workshops & Star Parties </h1></center>
+<h2 className="text-2xl italic ml-5">Interest Form</h2><br />
+<h3 className="text-l ml-5">Thank you for your interest in participating in one or more online weekend sessions of 
+    the Deep Space Astronomy program. Please complete this form, and our program director, Andres Torres, will be in touch 
+    with you for a brief conversation.<br /><br />
+
+NOTE: This form must be submitted no later than 10 days prior to the weekend you wish to attend.</h3>
+
+<br />
+
 <form>
-    <label htmlFor="product" className="ml-5">Product Description</label>
-    <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400" />
+    <label htmlFor="session" className="mx-5">Which weekend session are you interest in?</label>
+
+    <select name="session" className="bg-blue-400 text-black" id="session">
+    <option value="12-28-24">Saturday, December 28, 2024</option>
+    <option value="12-29-24">Sunday, December 29, 2024</option>
+    <option value="1-18-25">Saturday, January 18, 2025</option>
+    <option value="1-19-25">Sunday, January 19, 2025</option>
+    <option value="1-25-25">Saturday, January 25, 2025</option>
+    <option value="1-26-25">Sunday, January 26, 2025</option>
+    </select>
+    
+    <br /><br />
+
+
+    <label htmlFor="firstname" className="ml-5">First Name:</label>
+    <input type="text" name="firstname" id="product" className="m-2 text-black bg-blue-400" />
+    <label htmlFor="lastname" className="ml-5">Last Name:</label>
+    <input type="text" name="product" id="product" className="m-2 text-black bg-blue-400" />
     <br />
-<label htmlFor="cars" className="mx-5">Choose a car:</label>
 
-<select name="cars" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
-
-<br />
-<div className="ml-5 mt-5">
-    <input type="radio" id="html" name="fav_language" value="HTML" />
-    <label htmlFor="html">HTML</label><br />
-    <input type="radio" id="css" name="fav_language" value="CSS" />
-    <label htmlFor="css">CSS</label><br />
-    <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-    <label htmlFor="javascript">JavaScript</label>
+<div className="ml-5 mt-5">Your pronouns<br />
+    <input type="radio" id="she/her/hers" name="pronouns" value="she/her/hers" />
+    <label htmlFor="she/her/hers">she/her/hers</label><br />
+    <input type="radio" id="he/him/his" name="pronouns" value="he/him/his" />
+    <label htmlFor="he/him/his">he/him/his</label><br />
+    <input type="radio" id="they/them/theirs" name="pronouns" value="they/them/theirs" />
+    <label htmlFor="they/them/theirs">they/them/theirs</label><br />
+    <input type="radio" id="other" name="pronouns" value="other" />
+    <label htmlFor="other">Other</label>
+    <input type="text" name="other" id="other" placeholder="specify" className="m-3 text-black bg-blue-400" />
 </div>
 
-<div className="ml-5 mt-5">
-<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-  <label htmlFor="vehicle1"> I have a bike</label><br />
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-  <label htmlFor="vehicle2"> I have a car</label><br />
+<br />
+
+<label htmlFor="email" className="ml-5">Personal Email:</label>
+    <input type="text" name="email" id="email" className="m-2 text-black bg-blue-400" />
+    <br />
+    <label htmlFor="phonenumber" className="ml-5">Personal Phone Number:</label>
+    <input type="text" name="phonenumber" id="phonenumber" className="m-2 text-black bg-blue-400" />
+    <br />
+
+<div className="ml-5 mt-5">Best means to reach you 
+    <br />(you will be contacted by program director at the contact information provided above):
+    <br />
+<input type="checkbox" id="contact1" name="contact1" value="Email" />
+  <label htmlFor="contact1">Email</label><br />
+  <input type="checkbox" id="contact2" name="contact2" value="Phone" />
+  <label htmlFor="contact2">Phone</label><br />
 </div>
 <br />
 
-    <button type="button" className="ml-10 focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Save</button>
+    <button type="button" className="ml-10 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
 </form>
 </>
     );
