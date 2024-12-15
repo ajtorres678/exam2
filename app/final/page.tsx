@@ -69,13 +69,11 @@ NOTE: This form must be submitted no later than 10 days prior to the weekend you
 
 <center>
 <div className="avatar">
-  <div className="w-54 rounded">
-    <img src="https://static.mstdn.science/media_attachments/files/109/461/633/219/751/575/original/4e653e075c424173.jpeg" style={{ maxWidth: "30%", height: "auto" }} />
+  <div className="w-50 rounded">
+    <img src="https://smallworldgreetings.com/cdn/shop/products/carl_sagan-New-600px_1024x1024.jpg?v=1587780572" style={{ maxWidth: "100%", height: "auto" }}  />
   </div>
 </div>
 </center>
-
-
 </>
     );
 }
